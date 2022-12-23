@@ -73,7 +73,7 @@ p{
     color: hsl(216, 12%, 54%);
     background-color: hsl(214, 11%, 25%);
 }
-.focus {
+.selected {
     background-color: white;
     color: orange;
 }
