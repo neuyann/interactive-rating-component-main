@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Manrope:wght@700;800&family=Overpass:wght@400;600;700;800&display=swap');
+
+html {
+    box-sizing: border-box;}
+  
+  
+  *, *::before, *::after {
+      box-sizing: inherit;
+      margin-top: auto;
+      margin-bottom: auto;
+      }
+body {
+    margin: 0;
+    font-family: Manrope;
+    background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    margin-top: 15%;
+    width: 410px;
+    height: 420px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+}
+
+#star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(214, 11%, 25%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+h1{
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+p{
+    color: hsl(216, 12%, 54%);
+    font-size: 0.9em;
+    line-height: 20px;
+}
+.thank-you-state{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons > button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(214, 11%, 25%);
+    font-size: 0.9em;
+    font-family: Manrope;
+}
+
+#submitButton{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    height: 45px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-family: Manrope;
+    letter-spacing: 0.2em;
+    border-radius: 45px;
+}
+.hidden {
+    visibility: hidden;
+}
+
